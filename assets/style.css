@@ -1,0 +1,87 @@
+*{
+    margin:0%;
+    padding: 0%;
+   
+}
+body{
+    background:#ebf2ff;
+}
+#parent{
+    position: relative;
+    /* margin:20px;*/
+    justify-content: center; 
+}
+.heropat{
+    margin: 10px;
+    width: 70%;
+    height: 100%;
+    top :0;
+}
+.herosh{
+    margin: 50px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 90%;
+    height: 100%;
+   position: absolute;
+    top :10px;
+    left:0px;
+    right:20px;
+}
+.hero{
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    top :40px;
+    left:10px;
+}
+.odText{
+    margin-top: 170px;
+    margin-left: 150px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#btOdNow{
+    margin-left: 180px;
+    justify-content: center;
+}
+
+#VideoParent{
+    margin-top: 70px;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.Vchild2{
+    margin: 10px;
+    top :10px;
+    margin-left: 40px;
+    width: 300px;
+    height: 150px;
+    background: #cc0000;
+    
+    }
+.Vchild1{
+    position: absolute;
+    /* margin-left: 0px;
+    margin-right: 20px;
+    width: 75%;
+    height: 80%;
+    position: absolute;*/
+    top :0px; 
+
+}
+
+.VideoText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    margin-left: 350px;
+    margin-right: 300px;
+    text-align: center;
+}
